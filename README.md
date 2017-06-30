@@ -19,21 +19,21 @@ Wash up & Wipe Kitchen surfaces
 ****************  
 ## Week of the Month    
 **1st** - Clean Appliances  
-**2nd** - Clean Furnature/Cabinates  
+**2nd** - Clean Furniture/Cabinets  
 **3rd** - Wash Rugs etc  
 **4th** - "Month of the Year" Chore  
 
 ****************  
 ## Month of the year    
-**Jan** - Wipe inside of Kitchen Cabinates and Drawers  
-**Feb** - Organise Cuboards and Pantry  
-**March** - Wipe inside of Bathroom Cabinates and Drawers  
+**Jan** - Wipe inside of Kitchen Cabinets and Drawers  
+**Feb** - Organise Cupboards and Pantry  
+**March** - Wipe inside of Bathroom Cabinets and Drawers  
 **April** - Garage  
 **May** - Outside of the House  
-**June** - Wash Walls, Moldings and Doors  
+**June** - Wash Walls, Mouldings  and Doors  
 **July** - Shampoo Carpets  
 **Aug** - Windows/Window Sills  
 **September** - Blinds and Window Treatments  
 **October** - Garage  
 **November**- Move Fridge/Oven  
-**Dec** - Wash Walls, Moldings and Doors  
+**Dec** - Wash Walls, Mouldings  and Doors  
