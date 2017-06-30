@@ -7,7 +7,7 @@ De-Clutter Living Spaces
 Wash up & Wipe Kitchen surfaces  
 
 ****************  
-## WeekDay    
+## Week Day    
 **Monday** - Hoover Main Spaces  
 **Tuesday** - "Week of the Month" Chore  
 **Wednesday** - Dust  
