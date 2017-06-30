@@ -43,25 +43,25 @@ if chore == "MOYChore":
 	elif month=="February":
 		chore = "Organise Cupboards and Pantry"
 	elif month=="March":
-        chore = "Wipe inside of Bathroom Cabinets and Drawers"
+		chore = "Wipe inside of Bathroom Cabinets and Drawers"
 	elif month=="April":
-        chore = "Garage"
+		chore = "Garage"
 	elif month=="May":
-        chore = "Outside of the House"
+		chore = "Outside of the House"
 	elif month=="June":
-        chore = "Wash Walls, Mouldings and Doors"
+		chore = "Wash Walls, Mouldings and Doors"
 	elif month=="July":
-        chore = "Shampoo Carpets"
+		chore = "Shampoo Carpets"
 	elif month=="August":
-        chore = "Windows/Window Sills"
+		chore = "Windows/Window Sills"
 	elif month=="September":
-        chore = "Blinds and Window Treatments"
+		chore = "Blinds and Window Treatments"
 	elif month=="October":
-        chore = "Garage"
+		chore = "Garage"
 	elif month=="November":
-        chore = "Move Fridge/Oven"
+		chore = "Move Fridge/Oven"
 	elif month=="December":
-        chore = "Wash Walls, Mouldings and Doors"	
+		chore = "Wash Walls, Mouldings and Doors"	
 	else:
         print "Date not recognised"
 		
