@@ -26,13 +26,13 @@ if weekday=="Sunday":
 	chore = "Catch-up"	
 	
 if chore == "WOMChore":
-	if weeknumber = "1":
+	if weeknumber=="1":
 		chore = "Clean Appliances"
-	elif weeknumber = "2":
+	elif weeknumber=="2":
 		chore = "Clean Furniture/Cabinets"
-	elif weeknumber = "3":
+	elif weeknumber=="3":
 		chore = "Wash Rugs etc"
-	elif weeknumber = "4":
+	elif weeknumber=="4":
 		chore = "MOYChore"
 	else:
 		chore = "Day Off!"
