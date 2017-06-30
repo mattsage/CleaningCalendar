@@ -11,7 +11,7 @@ print weeknumber
 print weekday
 print month
 
-DailyChore = "De-Clutter Living Spaces, Wash up & Wipe Kitchen surfaces"
+dailychore = "De-Clutter Living Spaces, Wash up & Wipe Kitchen surfaces"
 
 if weekday=="Monday":
 	chore = "Hoover Main Spaces"
@@ -67,5 +67,6 @@ if chore == "MOYChore":
 		chore = "Wash Walls, Mouldings and Doors"	
 	else:
 		print "Date not recognised"
-		
+	
+print dailychore
 print chore
