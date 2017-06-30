@@ -9,7 +9,7 @@ Wash up & Wipe Kitchen surfaces
 ****************  
 ## WeekDay    
 **Monday** - Hoover Main Spaces  
-**Tuesday** - Week of the Month Chore  
+**Tuesday** - "Week of the Month" Chore  
 **Wednesday** - Dust  
 **Thursday** - Clean Bathrooms  
 **Friday** - Washing  
@@ -21,7 +21,7 @@ Wash up & Wipe Kitchen surfaces
 **1st** - Clean Appliances  
 **2nd** - Clean Furnature/Cabinates  
 **3rd** - Wash Rugs etc  
-**4th** - Month of the Year Chore  
+**4th** - "Month of the Year" Chore  
 
 ****************  
 ## Month of the year    
