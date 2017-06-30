@@ -3,9 +3,8 @@
 Daily List of Cleaning Jobs  
 ****************  
 ## Every Eve:  
-De-Clutter  
-Wash up  
-Wipe Kitchen surfaces  
+De-Clutter Living Spaces
+Wash up & Wipe Kitchen surfaces  
 
 ****************  
 ## WeekDay    
