@@ -10,41 +10,59 @@ print weeknumber
 print weekday
 print month
 
-if month=="January ":
+if weekday=="Monday":
+	chore = "Hoover Main Spaces"
+if weekday=="Tuesday":
+	chore = "WOMChore"
+if weekday=="Wednesday":
+	chore = "Dust"
+if weekday=="Thursday":
+	chore = "Clean Bathrooms"
+if weekday=="Friday":
+	chore = "Washing"
+if weekday=="Saturday":
+	chore = "Catch-up"
+if weekday=="Sunday":
+	chore = "Catch-up"	
+	
+if chore == "WOMChore":
+	if weeknumber = "1":
+		chore = "Clean Appliances"
+	elif weeknumber = "2":
+		chore = "Clean Furniture/Cabinets"
+	elif weeknumber = "3":
+		chore = "Wash Rugs etc"
+	elif weeknumber = "4":
+		chore = "MOYChore"
+	else:
+		chore = "Day Off!"
+
+if chore == "MOYChore":
+	if month=="January ":
 		chore = "Wipe inside of Kitchen Cabinets and Drawers"
-        print chore
-elif month=="February":
+	elif month=="February":
 		chore = "Organise Cupboards and Pantry"
-        print chore
-elif month=="March":
+	elif month=="March":
         chore = "Wipe inside of Bathroom Cabinets and Drawers"
-		print ""
-elif month=="April":
+	elif month=="April":
         chore = "Garage"
-		print chore
-elif month=="May":
+	elif month=="May":
         chore = "Outside of the House"
-		print chore
-elif month=="June":
+	elif month=="June":
         chore = "Wash Walls, Mouldings and Doors"
-		print chore
-elif month=="July":
+	elif month=="July":
         chore = "Shampoo Carpets"
-		print chore
-elif month=="August":
+	elif month=="August":
         chore = "Windows/Window Sills"
-		print chore
-elif month=="September":
+	elif month=="September":
         chore = "Blinds and Window Treatments"
-		print chore
-elif month=="October":
+	elif month=="October":
         chore = "Garage"
-		print chore
-elif month=="November":
+	elif month=="November":
         chore = "Move Fridge/Oven"
-		print chore
-elif month=="December":
-        chore = "Wash Walls, Mouldings and Doors"
-		print chore		
-else:
+	elif month=="December":
+        chore = "Wash Walls, Mouldings and Doors"	
+	else:
         print "Date not recognised"
+		
+print chore
