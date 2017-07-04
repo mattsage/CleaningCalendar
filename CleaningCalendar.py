@@ -17,17 +17,17 @@ dailychore = "De-Clutter Living Spaces, Wash up & Wipe Kitchen surfaces"
 if weekday=="Monday":
 	chore = "Hoover Main Spaces"
 if weekday=="Tuesday":
-	chore = "WOMChore"
+	chore = "Washing"
 if weekday=="Wednesday":
 	chore = "Dust"
 if weekday=="Thursday":
 	chore = "Clean Bathrooms"
 if weekday=="Friday":
-	chore = "Washing"
+	chore = "Clear out Fridge"
 if weekday=="Saturday":
 	chore = "Catch-up"
 if weekday=="Sunday":
-	chore = "Clear out Fridge"	
+	chore = "WOMChore"
 	
 if chore == "WOMChore":
 	if weeknumber == 1:
