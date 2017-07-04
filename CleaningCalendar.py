@@ -49,7 +49,7 @@ if chore == "MOYChore":
 	elif month=="March":
 		chore = "Wipe inside of Bathroom Cabinets and Drawers"
 	elif month=="April":
-		chore = "Garage"
+		chore = "Clear Garage"
 	elif month=="May":
 		chore = "Outside of the House"
 	elif month=="June":
@@ -61,7 +61,7 @@ if chore == "MOYChore":
 	elif month=="September":
 		chore = "Blinds and Window Treatments"
 	elif month=="October":
-		chore = "Garage"
+		chore = "Clear Garage"
 	elif month=="November":
 		chore = "Move Fridge/Oven"
 	elif month=="December":
