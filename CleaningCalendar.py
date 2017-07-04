@@ -7,7 +7,7 @@ weeknumber = (daynumber - 1) // 7 + 1 #Week number of the Month 1-5
 weekday = datetime.date.today().strftime("%A") #Weekday e.g.Tuesday
 month = datetime.date.today().strftime("%B") #Month e.g. June
 
-##Debugging purposes
+##Debugging purposes##
 #print daynumber
 #print weeknumber
 #print weekday
