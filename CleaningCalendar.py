@@ -42,7 +42,7 @@ if chore == "WOMChore":
 		chore = "Day Off!"
 
 if chore == "MOYChore":
-	if month=="January ":
+	if month=="January":
 		chore = "Wipe inside of Kitchen Cabinets and Drawers"
 	elif month=="February":
 		chore = "Organise Cupboards and Pantry"
