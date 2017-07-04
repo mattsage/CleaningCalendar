@@ -26,7 +26,7 @@ if weekday=="Friday":
 if weekday=="Saturday":
 	chore = "Catch-up"
 if weekday=="Sunday":
-	chore = "Catch-up"	
+	chore = "Clear out Fridge"	
 	
 if chore == "WOMChore":
 	if weeknumber=="1":
