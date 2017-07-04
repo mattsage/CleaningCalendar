@@ -1,5 +1,6 @@
 import datetime
 import calendar
+#Based on https://homesteadwifey.files.wordpress.com/2014/03/c850a-cleaningpic.png?w=640
 
 daynumber = datetime.datetime.now().day
 weeknumber = (daynumber - 1) // 7 + 1
