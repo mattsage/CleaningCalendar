@@ -30,8 +30,7 @@ if weekday=="Sunday":
 	
 if chore == "WOMChore":
 	if weeknumber == 1:
-		chore = "MOYChore"
-		#chore = "Clean Appliances"
+		chore = "Clean Appliances"
 	elif weeknumber == 2:
 		chore = "Clean Furniture/Cabinets"
 	elif weeknumber == 3:
