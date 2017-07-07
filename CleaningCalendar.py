@@ -59,9 +59,9 @@ if chore == "MOYChore": #Looks at the Month
 	elif month=="July":
 		chore = "Clean/Vax Carpets"
 	elif month=="August":
-		chore = "Windows/Window Sills"
+		chore = "Garden"
 	elif month=="September":
-		chore = "Blinds and Window Treatments"
+		chore = "Windows/Window Sills"
 	elif month=="October":
 		chore = "Clear Garage"
 	elif month=="November":
