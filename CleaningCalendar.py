@@ -21,6 +21,7 @@ weekday = datetime.date.today().strftime("%A") #Weekday e.g.Tuesday
 month = datetime.date.today().strftime("%B") #Month e.g. June
 
 ##Debugging purposes##
+#print datetoday
 #print daynumber
 #print weeknumber
 #print weekday
@@ -84,6 +85,7 @@ if chore == "MOYChore": #Looks at the Month
 	
 #print dailychore
 #print chore
+
 chorestring = "The Chores for %s are: %s & %s" % (datetoday,dailychore,chore)
 
 push = pb.push_note(chore, chorestring) #Push Chore as Title and dailychore as text
