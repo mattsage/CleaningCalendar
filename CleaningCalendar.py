@@ -3,7 +3,7 @@
 #########################################################################################################################
 # Author: Matthew Sage                                  				                                #
 # Date: 17/07/2017													#
-# Description: Cleaning notification based on the folowing image: http://bit.ly/2uvmvUA 				#
+# Description: Cleaning notification based on the following image: http://bit.ly/2uvmvUA 				#
 #########################################################################################################################
 
 import datetime
