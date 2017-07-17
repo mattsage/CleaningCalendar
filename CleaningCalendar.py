@@ -23,7 +23,7 @@ month = datetime.date.today().strftime("%B") #Month e.g. June
 #print month
 
 #Daily Chore to do everyday
-dailychore = "De-Clutter Living Spaces, Wash up & Wipe Kitchen surfaces"
+dailychore = "De-Clutter Living Spaces, Wash up, Wipe Kitchen surfaces"
 
 if weekday=="Monday":
 	chore = "Hoover main areas"
@@ -80,6 +80,6 @@ if chore == "MOYChore": #Looks at the Month
 	
 #print dailychore
 #print chore
-chorestring = "The Chores for %s are: %s AND %s" % (datetoday,dailychore,chore)
+chorestring = "The Chores for %s are: %s & %s" % (datetoday,dailychore,chore)
 
 push = pb.push_note(chore, chorestring) #Push Chore as Title and dailychore as text
