@@ -5,6 +5,7 @@ from pushbullet import Pushbullet
 #Based on https://homesteadwifey.files.wordpress.com/2014/03/c850a-cleaningpic.png?w=640
 
 api_key = open('/home/pi/Pushbulletkey.config', 'r').read()
+api_key = api_key.replace("\n", "")
 print api_key
 pb = Pushbullet(api_key) 
 
