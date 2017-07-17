@@ -10,8 +10,7 @@ api_key = api_key.replace("\n", "") #Remove Whitespace
 #print api_key
 pb = Pushbullet(api_key) 
 
-datetoday = datetime.datetime.now().strftime('%A %d %B')
-print datetoday
+datetoday = datetime.datetime.now().strftime('%A %d %B') #Todays Date e.g. Monday 13 June
 daynumber = datetime.datetime.now().day #Day Number of Month
 weeknumber = (daynumber - 1) // 7 + 1 #Week number of the Month 1-5
 weekday = datetime.date.today().strftime("%A") #Weekday e.g.Tuesday
@@ -81,6 +80,6 @@ if chore == "MOYChore": #Looks at the Month
 	
 #print dailychore
 #print chore
-chorestring = "The Chores for today are: %s AND %s" % (dailychore,chore)
+chorestring = "The Chores for %s are: %s AND %s" % (datetoday,dailychore,chore)
 
 push = pb.push_note(chore, chorestring) #Push Chore as Title and dailychore as text
