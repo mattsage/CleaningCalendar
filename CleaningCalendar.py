@@ -1,6 +1,12 @@
 import datetime
+from pushbullet import Pushbullet
+
 #import calendar
 #Based on https://homesteadwifey.files.wordpress.com/2014/03/c850a-cleaningpic.png?w=640
+
+api_key = open('/home/pi/Pushbulletkey.config', 'r').read()
+print api_key
+pb = Pushbullet(api_key) 
 
 daynumber = datetime.datetime.now().day #Day Number of Month
 weeknumber = (daynumber - 1) // 7 + 1 #Week number of the Month 1-5
@@ -71,3 +77,4 @@ if chore == "MOYChore": #Looks at the Month
 	
 print dailychore
 print chore
+push = pb.push_note("This is the title", "This is the body")
