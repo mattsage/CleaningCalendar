@@ -1,9 +1,13 @@
 #!/usr/bin/env python
+
+#########################################################################################################################
+# Author: Matthew Sage                                  				                                #
+# Date: 17/07/2017													#
+# Description: Cleaning notification based on the folowing image: http://bit.ly/2uvmvUA 				#
+#########################################################################################################################
+
 import datetime
 from pushbullet import Pushbullet
-
-#import calendar
-#Based on https://homesteadwifey.files.wordpress.com/2014/03/c850a-cleaningpic.png?w=640
 
 api_key = open('/home/pi/Pushbulletkey.config', 'r').read() #read Pushbullet Key from /home/pi/Pushbulletkey.config file
 api_key = api_key.replace("\n", "") #Remove Whitespace
