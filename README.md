@@ -1,6 +1,12 @@
 # CleaningCalendar
 
 Daily List of Cleaning Jobs  
+Runs everyday @ 0600 & 1900 using Crontab -e  
+
+* 6,19 * * * python /home/pi/CleaningCalendar/CleaningCalendar.py  
+
+**NOTE: **Execute permissions need to be granted to CleaningCalendar.py
+
 ****************  
 ## Every Eve:  
 De-Clutter Living Spaces
