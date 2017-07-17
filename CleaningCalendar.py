@@ -17,7 +17,7 @@ month = datetime.date.today().strftime("%B") #Month e.g. June
 dailychore = "De-Clutter Living Spaces, Wash up & Wipe Kitchen surfaces"
 
 if weekday=="Monday":
-	chore = "Hoover Main Spaces"
+	chore = "Hoover main areas"
 if weekday=="Tuesday":
 	chore = "Washing"
 if weekday=="Wednesday":
