@@ -4,9 +4,9 @@ from pushbullet import Pushbullet
 #import calendar
 #Based on https://homesteadwifey.files.wordpress.com/2014/03/c850a-cleaningpic.png?w=640
 
-api_key = open('/home/pi/Pushbulletkey.config', 'r').read()
-api_key = api_key.replace("\n", "")
-print api_key
+api_key = open('/home/pi/Pushbulletkey.config', 'r').read() #read Pushbullet Key from /home/pi/Pushbulletkey.config file
+api_key = api_key.replace("\n", "") #Remove Whitespace
+#print api_key
 pb = Pushbullet(api_key) 
 
 daynumber = datetime.datetime.now().day #Day Number of Month
@@ -78,4 +78,4 @@ if chore == "MOYChore": #Looks at the Month
 	
 print dailychore
 print chore
-push = pb.push_note(chore, dailychore)
+push = pb.push_note(chore, dailychore) #Push Chore as Title and dailychore as text
