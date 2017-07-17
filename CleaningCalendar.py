@@ -10,7 +10,7 @@ api_key = api_key.replace("\n", "") #Remove Whitespace
 #print api_key
 pb = Pushbullet(api_key) 
 
-datetoday = datetime.date.now()
+datetoday.strftime('%d-%m-%Y')
 print datetoday
 daynumber = datetime.datetime.now().day #Day Number of Month
 weeknumber = (daynumber - 1) // 7 + 1 #Week number of the Month 1-5
