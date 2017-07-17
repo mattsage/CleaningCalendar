@@ -50,7 +50,7 @@ if chore == "WOMChore": #Looks at week number for the Monthly Chore
 	elif weeknumber == 2:
 		chore = "Clean Furniture/Cabinets"
 	elif weeknumber == 3:
-		chore = "Wash Rugs etc"
+		chore = "Windows and Doors"
 	elif weeknumber == 4:
 		chore = "MOYChore" #Month of the year Chore - Once per year
 	else:
