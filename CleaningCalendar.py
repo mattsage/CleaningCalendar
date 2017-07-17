@@ -79,4 +79,6 @@ if chore == "MOYChore": #Looks at the Month
 	
 print dailychore
 print chore
-push = pb.push_note(chore, dailychore) #Push Chore as Title and dailychore as text
+chorestring = "Todays chores are %s and %s" % (dailychore,chore)
+
+push = pb.push_note(chore, chorestring) #Push Chore as Title and dailychore as text
