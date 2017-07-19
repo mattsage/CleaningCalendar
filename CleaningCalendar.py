@@ -35,7 +35,7 @@ if weekday=="Monday":
 if weekday=="Tuesday":
 	chore = "Washing"
 if weekday=="Wednesday":
-	chore = "Dust"
+	chore = "Dust surfaces"
 if weekday=="Thursday":
 	chore = "Clean Bathrooms"
 if weekday=="Friday":
