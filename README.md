@@ -15,12 +15,12 @@ Wash up & Wipe Kitchen surfaces
 ****************  
 ## Week Day    
 **Monday** - Hoover Main Spaces  
-**Tuesday** - "Week of the Month" Chore  
-**Wednesday** - Dust  
+**Tuesday** - Washing  
+**Wednesday** - Dust surfaces  
 **Thursday** - Clean Bathrooms  
-**Friday** - Washing  
+**Friday** - Clear out Fridge  
 **Saturday** - Catch-up  
-**Sunday** - Catch-up  
+**Sunday** - WOMChore 
 
 ****************  
 ## Week of the Month    
