@@ -9,7 +9,7 @@
 import datetime
 from pushbullet import Pushbullet
 
-api_key = open('/home/pi/Pushbulletkey.config', 'r').read() #read Pushbullet Key from /home/pi/Pushbulletkey.config file
+api_key = open('/home/pi/APIConfigs/Pushbulletkey.config', 'r').read() #read Pushbullet Key from /home/pi/Pushbulletkey.config file
 api_key = api_key.replace("\n", "") #Remove Whitespace
 #print api_key
 pb = Pushbullet(api_key) 
